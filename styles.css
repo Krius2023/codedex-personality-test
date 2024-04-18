@@ -10,7 +10,7 @@
 
 body {
     position: relative;
-    background-color: rgb(202, 159, 238);
+    background-color: #DA70D6;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,11 +23,11 @@ body {
     align-items: center;
     width: 30%;
     background-color: white;
-    border-radius: 8px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    min-width: 280px;
-    max-width: 480px;
-    height: 400px;
+    border-radius: 0.5rem;
+    box-shadow: 0px 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+    min-width: 17.5rem;
+    max-width: 30rem;
+    height: fit-content;
 }
 
 h4 {
@@ -49,8 +49,8 @@ button:disabled {
 h5.title {
     padding: 1.5rem;
     text-align: center;
-    border-radius: 8px 8px 0 0;
-    background-color: rgb(163, 59, 163);
+    border-radius: 0.5rem 0.5rem 0 0;
+    background-color: purple;
     color: white;
     width: 100%;
 }
@@ -63,7 +63,7 @@ h5.title {
     flex-direction: column;
     text-align: center;
     gap: 2rem;
-    border-radius: 0 0 8px 8px;
+    border-radius: 0 0 0.5rem 0.5rem;
 }
 
 .show-content div {
@@ -80,13 +80,13 @@ h5.title {
     border: 0;
     border-radius: 1rem;
     padding: 1rem;
-    background-color: rgb(202, 159, 238);
+    background-color: #DA70D6;
     font-weight: bold;
-    border: 0.2rem solid rgb(202, 159, 238);
+    border: 0.2rem solid #DA70D6;
 }
 
 .show-content button.selected {
-    border: 0.2rem solid rgb(163, 59, 163);
+    border: 0.2rem solid purple;
 }
 
 .show-arrows {
@@ -100,7 +100,7 @@ h5.title {
 .show-arrows button {
     outline: none;
     border: 0;
-    background-color: rgb(163, 59, 163);
+    background-color: purple;
     padding: 0.2rem 0.4rem;
     border-radius: 50%;
     font-weight: bolder;
@@ -120,11 +120,11 @@ h5.title {
 }
 
 .share-links button {
-    background-color: rgb(163, 59, 163);
+    background-color: purple;
     outline: 0;
     border: 0;
     padding: 0.5rem;
-    border-radius: 10px 0 10px 0;
+    border-radius: 0.75rem 0 0.75rem 0;
     color: white;
 }
 
