@@ -125,7 +125,7 @@ function showNext() {
 }
 
 const shareAlert = () => {
-    const copyContent = `Content Copied:: A fun personality test developed for Codedex"s April Month Challenge! Check it out here: <link>`;
+    const copyContent = `Content Copied:: A fun personality test developed for Codedex"s April Month Challenge! Check it out here: https://krius2023.github.io/codedex-personality-test`;
     navigator.clipboard.writeText(`${copyContent}`);
     alert(copyContent);
 }
